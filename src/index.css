@@ -1,0 +1,108 @@
+
+
+:root {
+  --dark_theme: #0d151f;
+  --violet_color: #965fd7;
+  --gray_color: #999393;
+  --text_color: #fff;
+  --text_color_gray: #c7c7c7;
+  --dark_modal_background: #303c4b;
+  --border_radius_10: 10px;
+  --border-color: white;
+  --main-color: #7efbc1;
+  --main-background: #0d151f;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0d151f !important;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+html,
+body,
+#root,
+#root > div {
+  height: 100%;
+}
+
+/* html,
+body {
+  height: 100%;
+}
+#root{
+  min-height: 100%;
+} */
+.customModal {
+  background: #303c4b;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.actionButton {
+  width: 300px;
+  max-width: 100%;
+  border: none;
+  border-radius: 25px;
+  height: 50px;
+  text-align: center;
+  background: var(--main-color);
+  opacity: 1 !important;
+  color: black;
+}
+
+/* remove arrow from input number */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.rt-select {
+  background-color: #0d151f;
+  color: #fff;
+  border: solid 2px white;
+  width: 150px;
+  height: 45px;
+  border-radius: 25px;
+  padding: 0 10px 0 15px;
+}
+.rt-select option {
+  background-color: #0d151f;
+  color: #fff;
+}
+
+.rt-select::-webkit-scrollbar {
+  width: 10px;
+}
+
+.rt-select::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.rt-select::-webkit-scrollbar-thumb {
+  background-color: #7efbc1;
+  outline: 1px solid #7efbc1;
+}
+
+.sr-input {
+  background: transparent;
+  border: solid 2px white;
+  border-radius: 20px;
+  height: 45px;
+  width: 250px;
+  margin: 0 50px 20px 0;
+  color: white;
+  font-size: 15px;
+  padding: 0 20px;
+}
